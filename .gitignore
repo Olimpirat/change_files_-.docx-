@@ -1,43 +1,36 @@
-# C++ objects and libs
-*.slo
-*.lo
-*.o
-*.a
-*.la
-*.lai
-*.so
-*.dll
-*.dylib
 
-# Qt-es
-object_script.*.Release
-object_script.*.Debug
-*_plugin_import.cpp
-/.qmake.cache
-/.qmake.stash
-*.pro.user
-*.pro.user.*
-*.qbs.user
-*.qbs.user.*
-*.moc
-moc_*.cpp
-moc_*.h
-qrc_*.cpp
-ui_*.h
-*.qmlc
-*.jsc
-Makefile*
-*build-*
+# Created by https://www.gitignore.io/api/windows
+# Edit at https://www.gitignore.io/?templates=windows
 
-# Qt unit tests
-target_wrapper.*
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# QtCreator
-*.autosave
+# Dump file
+*.stackdump
 
-# QtCreator Qml
-*.qmlproject.user
-*.qmlproject.user.*
+# Folder config file
+[Dd]esktop.ini
 
-# QtCreator CMake
-CMakeLists.txt.user*
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Other
+* .bat
+* .docx
+* .txt
+* .spec
+
+# End of https://www.gitignore.io/api/windows
