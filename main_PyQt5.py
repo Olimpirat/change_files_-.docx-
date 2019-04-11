@@ -9,11 +9,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
-import sys, os, time
+import sys, os
 from The_replacement_text_is_repeated import *
 from close_file import *
 from GUI import *
-from progress_bar import *
 from PyQt5 import QtCore, QtGui, QtWidgets
 from find_and_replace_text import find_and_replace_text
 
@@ -186,7 +185,7 @@ class AboutWindow(QtWidgets.QWidget):
 <p>Если установлен флаг&nbsp; &ldquo;Make changes to file copies&rdquo;, то создается в директории папка copy и туда помещаются исходные файлы.</p>
 <p>Флаг "Search files in subdirectories" позволяет искать файлы не только в корневой директории, но и в поддиректориях.</p>
 <p>Программа не закончена.</p>
-<p>Не являюсь профессиональным программистом. Просьба присылать свои замечания и материалы как их исправить на почту <a href="mailto:Adorari@mail.ru">Adorari@mail.ru</a> или GitHub *****.</p>
+<p>Не являюсь профессиональным программистом. Просьба присылать свои замечания и материалы как их исправить на почту <a href="mailto:Adorari@mail.ru">Adorari@mail.ru</a> или GitHub <a href="https://github.com/Olimpirat">github.com/Olimpirat</a>.</p>
 <p>Требуется добавить функционал:</p>
 <ul>
 <li>Возможность установки более 6 пар текста</li>
